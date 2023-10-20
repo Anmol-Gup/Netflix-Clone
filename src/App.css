@@ -5,9 +5,16 @@
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
   list-style: none;
 }
-
+#root{
+  width: 100%;
+}
 html {
   font-size: 62.5%;
+  width: 100vw;
+}
+body {
+  background-color: #000;
+  width: 100%;
 }
 
 .menu {
@@ -530,184 +537,3 @@ footer a {
   color: rgba(255, 255, 255, 0.7);
 }
 
-body {
-  background-color: #000;
-}
-
-html {
-  width: 100%;
-}
-
-@media screen and (max-width:1024px) {
-
-  .menu {
-    height: auto;
-  }
-
-  .menu_bar {
-    width: 100%;
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
-  header img {
-    width: 18rem;
-    padding: 1rem 0;
-  }
-
-  .container {
-    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); */
-    width: 100%;
-  }
-
-  .banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    gap: 2.5rem;
-    background-color: rgba(0, 0, 0/40%);
-    padding: 0 5rem;
-  }
-
-  .banner h1 {
-    font-weight: bold;
-  }
-
-  .banner p {
-    margin: 1.6rem 0 0;
-  }
-
-  .banner .input_email {
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 0;
-  }
-
-  .banner .input_email #email {
-    width: 100%;
-  }
-
-  .banner .input_email #get_started {
-    margin-top: 1rem;
-    margin-bottom: 5rem;
-    font-size: 2rem;
-  }
-
-  .tvdevice_section,
-  .kid_profile {
-    flex-direction: column;
-  }
-
-  .tvdevice_section_content {
-    width: 100%;
-    text-align: center;
-    padding: 0 3rem;
-  }
-
-  .tvdevice_section p,
-  .download_content p,
-  .kid_profile_content p {
-    margin-bottom: 2rem;
-    padding-left: 2rem;
-  }
-
-  .download_section,
-  .kid_profile {
-    flex-direction: column;
-  }
-
-  .download_content,
-  .kid_profile_content {
-    width: 100%;
-    text-align: center;
-  }
-
-  .download_content h2,
-  .kid_profile_content h2 {
-    font-size: 4.2rem;
-    font-weight: 800;
-    color: #fff;
-  }
-
-  .download_content p {
-    padding-left: 4rem;
-  }
-
-  .download_image,
-  .kid_profile_image {
-    display: grid;
-    place-items: center;
-    position: relative;
-  }
-
-  .download {
-    width: 50%;
-    min-width: 10rem;
-  }
-
-  .faq_head h2 {
-    font-size: 3rem;
-  }
-
-  .item {
-    padding: 1rem 2rem;
-  }
-
-  .title p {
-    font-size: 2rem;
-  }
-
-  .faqs p {
-    font-size: 2rem;
-  }
-
-  .after_faq {
-    text-align: center;
-    padding: 3rem;
-  }
-
-  .after_faq p {
-    font-size: 2rem;
-  }
-
-  .after_faq .input_email {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .after_faq .input_email #email {
-    width: 100%;
-  }
-
-  .after_faq .input_email #get_started {
-    margin-top: 1rem;
-  }
-
-  .select-wrapper .select {
-    padding-left: 3rem;
-    width: 0.1rem !important;
-  }
-
-  .link_section {
-    grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(2,1fr); */
-  }
-
-  footer {
-    width: 100%;
-    background-color: #000000;
-    padding: 0 1.5rem;
-  }
-
-  .foot_container {
-    padding: 0 2rem;
-  }
-
-  .after_faq .input_email #get_started {
-    font-size: 2rem;
-  }
-}
