@@ -3,6 +3,9 @@ This is a Netflix Clone made by me using React. It is not a responsive one.
 
 https://netflix-clone-anmol-gups-projects.vercel.app/
 
+## Demo Video
+https://youtu.be/7hg_gdSpeqM?si=ot8KrDLFjUBkoE7Y
+
 ![image](https://github.com/Anmol-Gup/Netflix-Clone/assets/66009201/4d053557-43a7-4923-b9eb-374af0ec611e)
 
 ![image](https://github.com/Anmol-Gup/Netflix-Clone/assets/66009201/2508a80d-3eab-4ca4-ad25-b50bdc4599b9)
